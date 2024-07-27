@@ -4,6 +4,9 @@ services:
     path: .
     buildCommand: "echo 'No build command'"
     publishDirectory: "."
+    routes:
+      - src: /(.*)
+        dest: /index.html
 
   - type: web
     name: backend
