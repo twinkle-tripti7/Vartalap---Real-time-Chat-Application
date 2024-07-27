@@ -1,0 +1,12 @@
+services:
+  - type: static
+    name: frontend
+    path: .
+    buildCommand: "echo 'No build command'"
+    publishDirectory: "."
+
+  - type: web
+    name: backend
+    path: nodeServer
+    buildCommand: "npm install"
+    startCommand: "node index.js"
