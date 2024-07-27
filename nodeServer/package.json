@@ -4,14 +4,15 @@
   "description": "This is a node server for my chat application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+
   },
   "author": "tripti",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "nodemon": "^3.1.4",
     "socket.io": "^4.7.5"
   }
 }
