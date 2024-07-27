@@ -1,4 +1,4 @@
-const socket = io('http://localhost:9100')
+const socket = io('https://vartalap-real-time-chat-application-o9pn.onrender.com');
 
 const form = document.getElementById('send-container')
 const messageInput = document.getElementById('messageInput')
